@@ -1,0 +1,5 @@
+<launch>
+    <node pkg='ros_latihan' type='talker.py' name='Assalamualaikum' output='screen'/>
+    <node pkg='ros_latihan' type='talker2.py' name='Namaku_Angga' output='screen'/>
+    <node pkg='ros_latihan' type='listener.py' name='node_listener' output='screen'/>
+</launch>
